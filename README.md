@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Jekyll](https://img.shields.io/badge/Built%20With-Jekyll-blue.svg)](https://jekyllrb.com/)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20On-GitHub%20Pages-lightgrey.svg)](https://pages.github.com/)
-[![Made With Love](https://img.shields.io/badge/Made%20With-%E2%9D%A4-red.svg)](https://les1g.github.io/)
+[![Made With Love](https://img.shields.io/badge/Made%20With-%E2%9D%A4-red.svg)](https://les1g.github.io/Gisel-Garrido/)
 
 <html>
     <h2 align="center">
@@ -16,7 +16,7 @@
       Important Links:
       <a href="https://les1g.github.io/">Live Site</a> &
       <a href="https://jekyllrb.com/docs/">Jekyll Docs</a> &
-      <a href="https://github.com/les1g/les1g.github.io">Repository</a>.
+      <a href="https://github.com/les1g/Gisel-Garrido">Repository</a>.
     </h3>
 </html>
 
