@@ -34,7 +34,7 @@
 ## 🌐 Live Site
 
 To view the live site hosted on GitHub Pages, visit:  
-👉 [https://les1g.github.io/](https://les1g.github.io/)
+👉 [https://les1g.github.io/Gisel-Garrido/](https://les1g.github.io/Gisel-Garrido/)
 
 ---
 
