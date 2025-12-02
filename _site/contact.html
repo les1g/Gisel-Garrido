@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+   <!-- Header Section -->
+  <header>
+    <nav>
+      <!-- Hamburger Menu Button (Visible on Small Screens) -->
+      <button class="hamburger-menu" aria-label="Toggle Navigation">
+        ☰
+        <!-- Unicode character for a hamburger menu -->
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <!-- Theme Toggle -->
+      <button class="theme-toggle" aria-label="Toggle Dark Mode">
+        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+          <path
+            d="m12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+
+      <!-- Decorative Image (Polar Bear) -->
+      <a href="index.html">
+        <img src="cute-polar-bear.svg" alt="cute polar bear" class="cute-polar-bear" />
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contact-container">
+  <section class="contact-header" style="text-align: center; margin-bottom: var(--spacing-xl)">
+    <h1>Get in Touch</h1>
+    <p style="max-width: 600px; margin: 0 auto">
+      I'm excited to connect with you! Whether you have a question, a project
+      proposal, or just want to say hello, feel free to reach out.
+    </p>
+  </section>
+
+  <div class="contact-form-container">
+    <!-- No backend on static site; form posts to '#' by default -->
+    <form action="https://formspree.io/f/mkgdbnyy" method="POST">
+      <div id="form-status" class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Let's talk about..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+    </form>
+  </div>
+</div>
+  
+  </main>
+
+  <footer>
+            <p>&copy; Gisel Garrido 2025</p>
+            <p>
+                <a href="https://github.com/les1g" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/gisel-garrido/" target="_blank">LinkedIn</a>
+            </p>
+        </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
