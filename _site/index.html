@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+   <!-- Header Section -->
+  <header>
+    <nav>
+      <!-- Hamburger Menu Button (Visible on Small Screens) -->
+      <button class="hamburger-menu" aria-label="Toggle Navigation">
+        ☰
+        <!-- Unicode character for a hamburger menu -->
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <!-- Theme Toggle -->
+      <button class="theme-toggle" aria-label="Toggle Dark Mode">
+        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+          <path
+            d="m12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+
+      <!-- Decorative Image (Polar Bear) -->
+      <a href="index.html">
+        <img src="cute-polar-bear.svg" alt="cute polar bear" class="cute-polar-bear" />
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="home-container">
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <span class="greeting">Hello there! I'm</span>
+      <h1 class="hero-title">Gisel Garrido</h1>
+      <h2 class="hero-subtitle">Student Developer</h2>
+      <p class="hero-description">
+        I like building websites and playing around with different designs. My
+        current focus is on
+        <span class="highlight">frontend</span> but I also work in
+        <span class="highlight">backend</span> a lot. I find
+        <span class="highlight">AI</span> fascinating and hope to integrate it
+        in future projects. When I'm not coding, I'm learning how to code, or
+        just bringing random ideas to life.
+      </p>
+      <div class="hero-buttons">
+        <a href="portfolio.html" class="btn btn-primary">View My Work</a>
+        <a href="contact.html" class="btn btn-secondary">Let's Connect</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-snippet">
+        <div class="code-header">
+          <div class="code-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="code-content">
+          <div class="code-line">
+            <span class="keyword">def</span>
+            <span class="function">create_awesome_websites</span>():
+          </div>
+          <div class="code-line">
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span>
+            <span class="string">"Beautiful & Functional"</span>
+          </div>
+          <div class="code-line"></div>
+          <div class="code-line">
+            <span class="comment"># Always learning, always building</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Projects Preview -->
+<section class="featured-preview">
+  <h2>Featured Projects</h2>
+  <div class="preview-grid">
+    <div class="preview-card">
+      <div class="preview-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M7 3V5H5V3H7ZM5 7V9H3V7H5ZM3 11V13H1V11H3ZM7 19H5V21H7V19ZM21 19V21H19V19H21ZM19 17V15H21V17H19ZM17 13V11H19V13H17ZM15 9V7H17V9H15ZM13 5V3H15V5H13Z"
+            fill="currentColor" />
+        </svg>
+      </div>
+      <h3>Portfolio Website</h3>
+      <p>
+        A clean, modern design with a fun twist. I focused on user experience
+        and responsive layouts. The possibilities are endless!
+      </p>
+      <a href="https://les1g.github.io/minnies-portfolio/" target="_blank" class="preview-link">View Live →</a>
+    </div>
+    <div class="preview-card">
+      <div class="preview-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12 2L13.09 6.26L16 4L14.74 7.74L19 6L16.26 9.91L21 9L17.74 12.09L22 13L17.74 14.91L21 15L16.26 14.09L19 18L14.74 16.26L16 20L13.09 17.74L12 22L10.91 17.74L8 20L9.26 16.26L5 18L7.74 14.09L3 15L6.26 11.91L1 9L6.26 10.09L3 9L7.74 12.09L5 6L9.26 7.74L8 4L10.91 6.26L12 2Z"
+            fill="currentColor" />
+        </svg>
+      </div>
+      <h3>Welcome to Arizona</h3>
+      <p>Simple design with focus on website layout and HTML structure.</p>
+      <a href="https://les1g.github.io/welcomeToArizona/" target="_blank" class="preview-link">View Live →</a>
+    </div>
+    <div class="preview-card">
+      <div class="preview-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 3L19 12L5 21V3Z" fill="currentColor" />
+        </svg>
+      </div>
+      <h3>More Projects</h3>
+      <p>Explore my complete portfolio and GitHub repositories</p>
+      <a href="portfolio.html" class="preview-link">See All →</a>
+    </div>
+  </div>
+</section>
+
+<!-- About Preview Section -->
+<section class="about-preview">
+  <div class="about-content">
+    <h2>About Me</h2>
+    <p>
+      I’ve always been fascinated by what technology can do and the doors it
+      opens for people. I’m currently a student at WGU, less than a year into
+      my program, and I’m excited to keep learning and building.
+    </p>
+    <div class="skills-preview">
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">Flask</span>
+      <span class="skill-tag">CSS</span>
+      <span class="skill-tag">Java</span>
+    </div>
+    <a href="about.html" class="btn btn-outline">Learn More About Me</a>
+  </div>
+</section>
+
+<!-- Connect Section -->
+<section class="connect-section">
+  <h2>Contact Gisel</h2>
+  <p>I'm always open to collaborate and exchange ideas.</p>
+  <div class="connect-buttons">
+    <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+    <a href="https://github.com/les1g" target="_blank" class="btn btn-github">
+      <span>GitHub</span>
+    </a>
+    <a href="https://www.linkedin.com/in/gisel-garrido/" target="_blank" class="btn btn-linkedin">
+      <span>LinkedIn</span>
+    </a>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+            <p>&copy; Gisel Garrido 2025</p>
+            <p>
+                <a href="https://github.com/les1g" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/gisel-garrido/" target="_blank">LinkedIn</a>
+            </p>
+        </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
