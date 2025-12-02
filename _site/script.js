@@ -92,35 +92,17 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Give success/error message after contact form submission
-document.addEventListener("DOMContentLoaded", function() {
-  const form = document.querySelector("form");
-  const status = document.getElementById("form-status");
+// Hamburger menu toggle for mobile navigation
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger-menu");
+  const navLinks = document.querySelector(".nav-links");
 
-  form.addEventListener("submit", async function(e) {
-    e.preventDefault();
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch(form.action, {
-        method: form.method,
-        body: formData,
-        headers: { 'Accept': 'application/json' }
-      });
-
-      if (response.ok) {
-        status.textContent = "Thanks for your message! I'll get back to you soon.";
-        status.className = "form-status success";
-        form.reset();
-      } else {
-        status.textContent = "Oops! Something went wrong. Please try again.";
-        status.className = "form-status error";
-      }
-    } catch (error) {
-      status.textContent = "Error sending message. Please try again later.";
-      status.className = "form-status error";
-    }
-  });
+  if (hamburger && navLinks) {
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("show-menu");
+    });
+  }
 });
+
 
 
