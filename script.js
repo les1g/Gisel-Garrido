@@ -92,5 +92,17 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+// Hamburger menu toggle for mobile navigation
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger-menu");
+  const navLinks = document.querySelector(".nav-links");
+
+  if (hamburger && navLinks) {
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("show-menu");
+    });
+  }
+});
+
 
 
