@@ -14,7 +14,7 @@
     </h3>
     <h3 align="center">
       Important Links:
-      <a href="https://les1g.github.io/">Live Site</a> &
+      <a href="https://les1g.github.io/Gisel-Garrido/">Live Site</a> &
       <a href="https://jekyllrb.com/docs/">Jekyll Docs</a> &
       <a href="https://github.com/les1g/Gisel-Garrido">Repository</a>.
     </h3>
